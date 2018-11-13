@@ -1,5 +1,7 @@
 /* Find other drugs that contains Warfarin AND Dabigratran */
 
+Jack messed up - can't compile
+
 SELECT de.PERSON_ID, MIN(de.DRUG_EXPOSURE_START_DATE) as INDEX_DATE
     FROM DRUG_EXPOSURE de
     WHERE de.DRUG_CONCEPT_ID IN (
